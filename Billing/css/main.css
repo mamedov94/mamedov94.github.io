@@ -256,7 +256,7 @@ p {
 }
 .custom-switcher-label::before {
   content: "";
-  background-color: #71c114;
+  background-color: #c14214;
   -webkit-border-radius: 14px;
           border-radius: 14px;
   width: 49px;
@@ -331,6 +331,9 @@ p {
   -webkit-transform: translate(-20px, -50%);
       -ms-transform: translate(-20px, -50%);
           transform: translate(-20px, -50%);
+}
+.custom-switcher:checked + .custom-switcher-label::before {
+  background-color: #71c114;
 }
 .header {
   display: -webkit-box;
